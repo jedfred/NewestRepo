@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Gobelty Gook</title>
+<link rel = "icon" type = "image/x-icon" href = "https://drive.google.com/uc?export=view&id=1prqprRviwsgEHm9lXtEOmVYQWMl0zqt-">
+<meta charset = "UTF-8">
+<meta name = "keywords" content = "CSS HTML Javascript">
+<meta name = "description" content = "My page full of examples as I learn HTML">
+<meta name = "author" content = "Jed">
+<meta name = "viewport" content = "width=device-width, intial-scale=1.0"> <!--THIS IS IMPORTANT FOR ALL PAGES FOR PROPER VIEWING ON DIFFERENT DEVICES -->
+<!-- <base href = "www.iamjed.com" target = "_blank"> -->
+<style>
+  #myheader {
+    font-family: Comic Sans MS;
+    color: brown;
+    font-size:150%;
+  }
+
+  .test1 {
+    background-color:#facf9b;
+    color:black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .test2 {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  
+  .test3 {
+    color:blue;
+  }
+
+  pre {
+    color:purple;
+    font-family:verdana;
+    font-size:150%;
+  }
+  h6  {
+    background-color:powderblue;
+    color:goldenrod;
+    font-family:verdana;
+    font-size:150%;
+  }
+  p {
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin: 30px;
+  }
+  
+  
+  a:link{
+    color:green;
+    background-color:transparent;
+    text-decoration:none;
+  }
+  
+  a:visited{
+    color:pink;
+    background-color:transparent;
+    text-decoration:none;
+  }
+  
+  a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color:transparent;
+    text-decoration: underline;
+  }
+  
+  body {
+    background-image: url('https://drive.google.com/uc?export=view&id=1iiFAhtYTRD8bJ6WDKQqQCG61G0e0OxQ8');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;/*100% 100%*/
+  }
+  
+  
+  table {
+    /*border-spacing:20px;*/
+    border-collapse: collapse;
+  }
+  
+  
+  /*table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: #96D4D4;
+    
+  }*/
+  
+  
+  /*
+  th, td {
+    background-color: #96D4D4;
+    padding: 15px;
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-right:15px;
+    padding-left:20px;
+  }
+  */
+  /*
+  th {
+    text-align: left;
+  }
+  */
+  /*
+  tr:nth-child(even) {
+    background-color:rgba(255,200,67,0.4) ;
+  }
+  
+  td:nth-child(even), th:nth-child(even) {
+    background-color:rgba(255,200,67,0.4);
+  }
+  */
+  
+  tr {
+    border-bottom: 1px solid rgb(0,0,0);
+  }
+  
+  tr:hover {
+    background-color:#D6EEEE;
+  }
+  /*
+  a:link, a:visited {
+    color:white;
+    background-color: #f44336;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+  }
+  
+  
+  
+  a:hover, a:active {
+    background-color:red;
+  }
+  */
+  
+
+</style>
+</head>
+<body style = "background-color:beige;">
+  
+<a href = "#myheader">Jump to Chocolate Milk statement</a>
+
+<h1>Heading 1</h1>
+<h1 style="font-size:60px;">Heading 1 @ 60 pixels</h1>
+<h2 style ="color:red; background-color:yellow; font-family:verdana;">Heading 2</h2>
+<h3 style ="color:blue;">Heading 3</h3>
+<h4 style = "font-family:courier;">Heading 4</h4>
+<h5 style = "text-align:center;">Heading 5</h5>
+<h6>Heading 6</h6>
+
+<p style="background-color:tomato;">Here's one Paragraph <br> with a break</p>
+
+<!-- CURRENT LOCATION -->
+<p>And Here is another.  <a href = "https://www.w3schools.com/html/html_responsive.asp" target = "_blank"> <img src="https://drive.google.com/uc?export=view&id=1WyQ4mNS4BtPP5mqeB0oaJ_rxIi8hRIze" alt = "Current Location" style = "width:104px; height:104px;"></a>using the max-width property</p>
+
+<p>Here is a tag reference <a href = "https://www.w3schools.com/tags/default.asp">W3 Schools tag reference</a></p>
+<p>Here is a tag reference <a href = "https://www.w3schools.com/tags/default.asp#mypagediv2">W3 Schools tag reference with a bookmark</a></p>
+
+<p style="color:red;">This is a paragraph in red</p>
+<p>Here is a reference to<a href="https://www.w3schools.com/tags/ref_language_codes.asp" target = "_top"> language codes</a></p>
+<p style = "font-size:150%;"  title="I'm a tooltip">This is a paragraph with a tooltip...just hover over this paragraph with the mouse.</p>
+<p>Below is a horitontal rule made by "hr" in caret brackets</p>
+<hr>
+<p style = "font-size:200%; text-align:center;" id = "C4">Below is two horizontal rules</p>
+<hr>
+<hr>
+<p>This
+Paragraph is
+on multiple     lines
+in the    editor.
+I used the return key to
+create       them.  There are also
+a lot      of extra spaces.  HTML ignores them.
+I used    space key and tab to create
+the extra space.</p>
+<pre>This
+Paragraph is not a paragraph from the p tag but from the pre tag
+on multiple     lines
+in the    editor.
+I used the return key to
+create       them.  There are also
+a lot      of extra spaces.  HTML does not ignore them.
+I used    space key and tab to create
+the extra space.</pre>
+<p>Here are some formatting elements<br>
+<b>This is bold</b><br>
+<strong>This is strong</strong><br>
+<i>This is italic</i><br>
+<em>This is emphasized.</em>A screen reader will verbally emphasize emphasized text<br>
+<small>This is small text</small><br>
+<mark>This is marked text</mark><br>
+<del>This is deleted text</del><br>
+<ins>This is inserted text</ins><br>
+This text has a <sub>subscript</sub> and a <sup>superscript</sup> Perhaps useful in something like P<sub>0</sub> = x<sup>2</sup>.<br>
+</p>
+
+<p>Here is a blockquote from Elder Bednar:</p>
+<blockquote cite="https://www.churchofjesuschrist.org/study/general-conference/2022/10/46bednar?lang=eng">Parables are a defining feature of the Lord Jesus Christ’s masterful approach to teaching. Simply defined, the Savior’s parables are stories used to compare spiritual truths with material things and mortal experiences. For example, the New Testament Gospels are replete with teachings likening the kingdom of heaven to a grain of mustard seed, to a pearl of great price, to a householder and laborers in his vineyard, to ten virgins, and to many other things. During part of the Lord’s Galilean ministry, the scriptures indicate that “without a parable spake he not unto them.”</blockquote>
+<p>Here's a short quote <q>What e're thou art, act well thy part</q></p>
+<p>Abbreviations can be used which can give information to browsers.  Here's an acronym in abbreviation brackets: <abbr title = "Latter-Day Saints">LDS</abbr> that when moused over should show the meaning of the acronym</p>
+<p>Below  is an address:</p>
+<address>
+  Jed Simmons<br>
+  412 E 250 S Box 101<br>
+  Mendon, UT  84325<br>
+  pilasers.com<br>
+  jedfred@gmail.com<br>
+</address>
+<p>Here is a citation where the title of the work is in cite brackets....not the author<br>
+<cite>Ghost Boy</cite> by Martin Pistorious</p>
+<bdo dir = "rtl">This is a bi-directional override</bdo>
+<!-- here  is a practice at doing a comment -->
+
+<!--
+<p>I can hide multiline <br>
+paragraphs in a single comment</p>
+-->
+<p> I can hide things in the <!-- just hiding a comment --> middle of this paragrph in a comment.</p>
+<h1 style = "background-color:dodgerblue;">This heading 1 has a background color of dodger blue</h1>
+<p style = "background-color:gainsboro;">This Paragraph has a background color of gainsboro</p>
+<p style = "background-color:goldenrod; color:black">This paragraph has a background color of goldenrod and text color of black</p>
+<p style = "background-color:darkorange; color:blue">This paragraph has a background color of darkorange and text color of blue</p>
+<h1 style = "border: 2px solid blue">This heading 1 has a solid blue border</h1>
+<h2 style = "border: 2px solid tomato">This heading 2 has a solid tomato border</h2>
+<h3 style = "border: 3px solid darkorange">This  heading 3 has a solid darkorange border</h3>
+
+<h2 style = "background-color:goldenrod; color:white;">Background:goldenrod <br> Text:white</h2>
+
+
+<h2 style = "background-color:hsl(43,74%,49%); color:hsl(0,0%,100%);">Background:hsl(43,74%,49%) <br> Text:hsl(0,0%,100%)</h2>
+<h2 style = "background-color:#daa520; color:#FFFFFF;">Background:#daa520 <br> Text:#FFFFFF)</h2>
+<h2 style = "background-color:rgb(218,165,32); color:rgb(255,255,255);">Background:rgb(218,165,32) <br> Text:rgb(255,255,255)</h2>
+
+<h2 style = "background-color:hsla(43,74%,49%,0.5); color:hsl(0,0%,100%);">Background:hsla(43,74%,49%,0.5) <br> Text:hsl(0,0%,100%)</h2>
+<h2 style = "background-color:rgba(218,165,32,0.5); color:rgb(255,255,255);">Background:rgba(218,165,32,0.5) <br> Text:rgb(255,255,255)</h2>
+<a href = "mailto:jedfred@gmail.com" target = "_blank">send email</a><br>
+<button onclick = "document.location = 'https://www.churchofjesuschrist.org/?lang=eng'">Church of Jesus Christ Home Page</button><br>
+<a href = "https://www.churchofjesuschrist.org/?lang=eng" title = "Go to Church of Jesus Christ of Latter-Day Saints website">Church</a><br>
+<a href = "https://www.hjnews.com/" target = "_blank;" style = "font-size:30px;">Herald Journal</a>
+<a href = "#C4">Jump to 2 Horizontal Rules</a>
+<br>
+<p>Below are two different syntactical ways to display the same thing</p>
+<img src = "https://drive.google.com/uc?export=view&id=1prqprRviwsgEHm9lXtEOmVYQWMl0zqt-" alt = "guy smiley" style="width:100px;height:100px;">
+<img src = "https://drive.google.com/uc?export=view&id=1prqprRviwsgEHm9lXtEOmVYQWMl0zqt-" alt = "guy smiley" width = "100" height = "100"><br>
+<img src = "https://drive.google.com/uc?export=view&id=1Tb9qOY7TfuktncY5aGK2WiZgfdysJn5i" alt = "gif smiley"  style="width:212px;height:256px;"><br>
+<p>Here is a clickable linked gif<br> <a href = "https://giphy.com/explore/download" target = "_blank;"><img src = "https://drive.google.com/uc?export=view&id=1Tb9qOY7TfuktncY5aGK2WiZgfdysJn5i" alt = "gif smiley"  style="width:212px;height:256px;"></a></p>
+
+<p>This image goes to the right of the text<img src = "https://drive.google.com/uc?export=view&id=1Tb9qOY7TfuktncY5aGK2WiZgfdysJn5i" alt = "gif smiley"  style="float:right;width:212px;height:256px;"></p>
+<p>This image goes to the left of the text<img src = "https://drive.google.com/uc?export=view&id=1Tb9qOY7TfuktncY5aGK2WiZgfdysJn5i" alt = "gif smiley"  style="float:left;width:212px;height:256px;"></p><br>
+
+<img src = "https://drive.google.com/uc?export=view&id=1Uhv6zPXO3vuNwDecAaELQ0ueuSBDo3QM" alt = "puppies" style = "max-width:100%;height:auto;"  usemap = "#workmap">
+<map name = "workmap">
+  <area shape = "rect" coords = "150,50,350,270" href = "https://www.akc.org/dog-breeds/golden-retriever/" title = "Yawny">
+  <area shape = "rect" coords = "355,120,500,285" href = "https://en.wikipedia.org/wiki/Golden_Retriever" title = "Content">
+  <area shape = "circle" coords = "625,200,100" href = "https://dogtime.com/dog-breeds/golden-retriever" title = "Distracted">
+  <area shape = "poly" coords = "36,195,45,171,64,161,68,135,98,121,136,123,150,135,152,157,156,194,154,224,154,251,153,278,128,306,95,327,68,346,24,375,5,372,27,344,40,313,55,272,73,237,48,226" href = "https://grca.org/" target = "_blank" title = "Disinterested" onclick = "myfunction()">
+  
+</map>
+<script>
+  function myfunction() {
+  alert ("you found the cutest golden retriever you cant see properly");
+  }
+</script>
+
+<picture>
+  <source media = "(min-width:650px)" srcset = "https://drive.google.com/uc?export=view&id=1WyQ4mNS4BtPP5mqeB0oaJ_rxIi8hRIze">
+  <source media = "(min-width:600px)" srcset = "https://drive.google.com/uc?export=view&id=1Tb9qOY7TfuktncY5aGK2WiZgfdysJn5i">
+  <img src = "https://drive.google.com/uc?export=view&id=1prqprRviwsgEHm9lXtEOmVYQWMl0zqt-">
+</picture>
+
+<table style ="width:50%">
+  <tr style = "height:150px">
+    <th style ="width:70%">Name</th>
+    <th>Food</th>
+    <th>Color</th>
+  </tr>
+  
+  <tr>
+    <td>Jed</td>
+    <td>Pizza</td>
+    <td>Burnt Orange</td>
+  </tr>
+  
+  <tr>
+    <td>Janelle</td>
+    <td>Caramel</td>
+    <td>Teal</td>
+  </tr>
+  
+  <tr>
+    <td>Dallen</td>
+    <td>Artichoke</td>
+    <td>Orange</td>
+  </tr>
+</table>
+
+<table style ="width:50%">
+  <tr>
+    <th></th>
+    <th>Sun</th>
+    <th>Mon</th>
+    <th>Tues</th>
+    <th>Wed</th>
+    <th>Thurs</th>
+    <th>Fri</th>
+    <th>Sat</th>
+  </tr>
+  
+  <tr>
+    <th>8:00</th>
+    <td rowspan = "2"> Awake & Arise</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <th>9:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <th>10:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <th>11:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <th>12:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<table style ="width:50%">
+  <caption>Table 1:  Favorites</caption>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Food</th>
+    <th>Color</th>
+  </tr>
+  
+  <tr>
+    <td>Jed</td>
+    <td>Simmons</td>
+    <td>Pizza</td>
+    <td>Burnt Orange</td>
+  </tr>
+  
+  <tr>
+    <td>Janelle</td>
+    <td>Simmons</td>
+    <td>Caramel</td>
+    <td>Teal</td>
+  </tr>
+  
+  <tr>
+    <td>Dallen</td>
+    <td>Simmons</td>
+    <td>Artichoke</td>
+    <td>Orange</td>
+  </tr>
+</table>
+
+
+<table style = "width:50%">
+  <colgroup>
+    <col span = "2"><!-- style = "background-color:rgba(200,200,200,0.4)">-->
+    <col span = "3" style = "background-color:rgba(200,100,50,0.4)">
+    <col span = "1" style = "visibility:collapse">
+  </colgroup>
+  <tr>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thur</th>
+    <th>Fri</th>
+    <th>Sat</th>
+  </tr>
+  
+  <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  
+    <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  
+    <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  
+</table>
+
+
+<p>here are unordered lists</p>
+<ul style = "list-style-type:disc;">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ul>
+
+<ul style = "list-style-type:circle;">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ul>
+
+<ul style = "list-style-type:square;">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ul>
+
+<ul style = "list-style-type:none;">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ul>
+
+<ul style = "list-style-type:circle;">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat
+    <ul>
+      <li>chomp</li>
+      <li>chew</li>
+      <li>growl</li>
+    </ul>
+  </li>
+  <li>drink</li>
+  <li>repeat</li>
+</ul>
+
+
+
+<p>here is an ordered list</p>
+<ol>
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ol>
+
+<p>below is a description list</p>
+<dl>
+  <dt>Hamburger</dt>
+  <dd>meat on a bun</dd>
+  <dt>Winter</dt>
+  <dd>cold time of year</dd>
+</dl>
+
+<ol type = "1">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ol>
+
+<ol type = "A">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ol>
+
+<ol type = "a">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ol>
+
+<ol type = "I">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ol>
+
+<ol type = "i">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ol>
+
+<ol start = "50">
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat</li>
+  <li>drink</li>
+  <li>repeat</li>
+</ol>
+
+<ol>
+  <li>bark</li>
+  <li>scratch</li>
+  <li>lick</li>
+  <li>dig</li>
+  <li>eat
+    <ol>
+      <li>dog food</li>
+      <li>milk bone</li>
+      <li>interceptor</li>
+    </ol>
+    </li>
+  <li>drink</li>
+  <li>repeat</li>
+</ol>
+
+<p>Here is a paragraph made using this tag: &lt;p&gt;.  It is also an example of a block-level element</p>
+<div style = "color:blue;padding:20px;">Here is a div made using this tag: &lt;div&gt;.  It is also an example of a block-level element.  The whole div can be styled as one.
+<h2>Here is a heading inside a div</h2>
+<p>Here is a paragrph inside a div.</p>
+</div>
+<p>A span element is made using this tag:  &lt;span&gt;.  It is an example of an inline element and allows you to style words or small sections inside another element like this.  <span style = "color:red;background-color:black;">This is styled inside a span.</span></p>
+
+<div class = "test1">
+  <table>
+    <tr>
+      <th><span class = "test2">Name</span></th>
+      <th>Birthday</th>
+      <th>Eye Color</th>
+    </tr>
+    <tr>
+      <td>Jed</td>
+      <td>8 Jul 1976</td>
+      <td>blue</td>
+    </tr>
+    <tr>
+      <td>Janelle</td>
+      <td>6 Nov 1980</td>
+      <td>hazel</td>
+    </tr>
+  </table>
+</div>
+
+<div class = "test1">
+  <h1><abbr title = "Boy Scouts of America">BSA</abbr></h1>
+  <p>If I was to order soup from a restaurant and saw when they placed the soup in front of me that it had a fly floating in it, I would notify the waiter and, I expect, be served a new bowl of soup.  The <span class = "test2">Boy Scouts of America</span> like many large organizations has had its fair share of accusations against it.  However, those accusations are to me like a fly in the soup.  I don't know how much of the soup has been contaminated and so am tempted to refuse the entire thing.  But what if this is my favorite soup?  In fact, I like this soup so much that throwing a quantity away feels like a travesty.  I might try to rescue the soup by simply removing the fly and enjoying what remains.  For some, it seems that though they liked the boys scouts well enough it isn't worthy of saving.  Others loved the boy scouts and wish to preserve the good in it while throwing out what is objectionable.</p>
+</div>
+
+<div class = "test1">
+  <h2>Dyed in the Wool</h2>
+  <p>What you say when someone asks if you are a member of the <span class = "test2 test3">Church of Jesus Christ of Latter-day Saints</span></p>
+</div>
+
+<p class = "test3">Making blue yay!</p>
+<button onclick = "myFunction()">Hide elements</button>
+
+<script>
+  function myFunction() {
+    var x = document.getElementsByClassName("test2");
+    for (var i = 0; i < x.length; i++){
+      x[i].style.display = "none";
+    }
+  }
+</script>
+
+<h1 id = "myheader">Chocolate Milk Rocks</h1>
+
+<button onclick = "displayresult()">Change Text</button>
+<script>
+  function displayresult(){
+    document.getElementById("myheader").innerHTML = "Yubba Yubba Yum Yum";
+  }
+</script>
+
+<p>Here is the use of &lt;iframe&gr; to embed my other site inside this one.  This has the default border removed </p>
+<iframe src="file:///media/fuse/drivefs-a51ff4b108bb3794ab4c418d32d03dfc/root/Caret%20files-20220811T030039Z-001/Caret%20files/PiTraces/Wander2.html" style="border:none;" height=200 width=500 title="Iframe Example"></iframe>
+
+<p>Here is the same thing only using the style attribute to define dimensions and styling the border</p>
+<iframe src="file:///media/fuse/drivefs-a51ff4b108bb3794ab4c418d32d03dfc/root/Caret%20files-20220811T030039Z-001/Caret%20files/PiTraces/Wander2.html" name = "iframe_a" style="height:200px;width:500px;border:2px solid red;" title="Iframe Example"></iframe>
+
+
+<p><a href="https://www.repairfaq.org/sam/lasersam.htm" target="iframe_a">Sam's Laser Faq</a></p>
+
+<button type = "button" onclick = "mytime()">Click for Time</button>
+<script>
+  function mytime(){
+    document.getElementById("time1").innerHTML = Date();
+  }
+</script>
+<p id = "time1"></p>
+
+<p>another way to do it</p>
+<button type = "button" onclick = "document.getElementById('time1').innerHTML=Date()">Click for Time</button>
+
+<p id = "testing">Here's a style change via javascript</p>
+<script>
+  function sizechange() {
+    document.getElementById("testing").style.fontSize = "25px";
+  }
+  function colorchange(){
+    document.getElementById("testing").style.color = "red";
+  }
+  function backchange() {
+    document.getElementById("testing").style.backgroundColor = "yellow"
+  }
+</script>
+<button type = "button" onclick = "sizechange()">Click for size change</button>
+<button type = "button" onclick = "colorchange()">Click for color change</button>
+<button type = "button" onclick = "backchange()">Click for background color change</button>
+
+<!--  Here's pic 1  https://drive.google.com/file/d/1dHjwMnXWOXuuLMB45Nsl_F7h5qBU5cYo/view?usp=sharing  -->
+<!--  Here's pic 2  https://drive.google.com/file/d/1FJ145i6GMTvmdwaRTLRTRtXuuxGbmx6R/view?usp=sharing  -->
+<br>
+<script>
+  function light(sw){
+    var pic;
+    if (sw == 0) {
+      pic = "https://drive.google.com/uc?export=view&id=1dHjwMnXWOXuuLMB45Nsl_F7h5qBU5cYo"
+    }
+      else {
+      pic = "https://drive.google.com/uc?export=view&id=1FJ145i6GMTvmdwaRTLRTRtXuuxGbmx6R"
+    }
+    document.getElementById("lightbulb").src = pic
+  }
+</script>
+
+<img id = "lightbulb" src = "https://drive.google.com/uc?export=view&id=1dHjwMnXWOXuuLMB45Nsl_F7h5qBU5cYo" width = "100" height = "180">
+
+<p>
+<button type = "button" onclick="light(1)">Light On</button>
+<button type = "button" onclick="light(0)">Light off</button>
+</p>
+<noscript>Sorry, you're browser does not support Javascript</noscript>
+
+<p> <a href = "https://www.youtube.com/watch?v=mPGi1IHQxFM" target = "_blank">Here</a> is an interesting website about hosting  on GitHub</p>
+</body>
+</html>
