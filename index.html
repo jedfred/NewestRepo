@@ -149,7 +149,37 @@
   }
   */
   
-
+  *{
+    box-sizing:border-box;
+  }
+  
+  .left {
+    background-color: blue;
+    padding: 20px;
+    float: left;
+    width:20%;
+  }
+  
+  .main {
+    background-color: pink;
+    padding: 20px;
+    float: left;
+    width: 60%;
+  }
+  
+  .right{
+    background-color: green;
+    padding: 20px;
+    float: left;
+    width: 20%;
+  }
+  
+  @media screen and (max-width:500px){
+    .left, .main, .right{
+      width: 100%;/*width is 100% when screen is 500px or smaller*/
+    }
+  }
+  
 </style>
 </head>
 <body style = "background-color:beige;">
@@ -737,5 +767,21 @@ paragraphs in a single comment</p>
   <source srcset="Samoyed.jpg">
   <img src="shiba_inu.jpg" alt="dog">
 </picture>
+
+<h1 style="font-size:10vw">Hello World</h1>
+
+<div class = "left">
+  <p>Yup Left</p>
+</div>
+
+<div class = "main">
+  <p>This is the main part</p>
+</div>
+
+<div class = "right">
+  <p>This is the right matter</p>
+</div>
+
+
 </body>
 </html>
