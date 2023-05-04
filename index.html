@@ -15,7 +15,49 @@
     color: brown;
     font-size:150%;
   }
-
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  
+  .mainly {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
+  .rightly {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .mainly, .rightly {
+      width: 100%;
+    }
+  }
+  
+  
   .test1 {
     background-color:#facf9b;
     color:black;
@@ -149,9 +191,7 @@
   }
   */
   
-  *{
-    box-sizing:border-box;
-  }
+  
   
   .left {
     background-color: blue;
@@ -180,6 +220,7 @@
     }
   }
   
+  
 </style>
 </head>
 <body style = "background-color:beige;">
@@ -197,7 +238,7 @@
 <p style="background-color:tomato;">Here's one Paragraph <br> with a break</p>
 
 <!-- CURRENT LOCATION "https://drive.google.com/uc?export=view&id=1WyQ4mNS4BtPP5mqeB0oaJ_rxIi8hRIze" -->
-<p>And Here is another.  <a href = "https://www.w3schools.com/html/html_responsive.asp" target = "_blank"> <img src="current_location.png" alt = "Current Location" style = "width:104px; height:104px;"></a>using the max-width property</p>
+<p>And Here is another.  <a href = "https://www.w3schools.com/html/html_responsive.asp" target = "_blank"> <img src="current_location.png" alt = "Current Location" style = "width:104px; height:104px;"></a>full examples</p>
 
 <p>Here is a tag reference <a href = "https://www.w3schools.com/tags/default.asp">W3 Schools tag reference</a></p>
 <p>Here is a tag reference <a href = "https://www.w3schools.com/tags/default.asp#mypagediv2">W3 Schools tag reference with a bookmark</a></p>
@@ -782,6 +823,30 @@ paragraphs in a single comment</p>
   <p>This is the right matter</p>
 </div>
 
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Hello World</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+</div>
+
+<div class="mainly">
+  <h2>Lorum Ipsum</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+
+<div class="rightly">
+  <h2>About</h2>
+  <p>Lorem ipsum color sit amet, consectetuer adipiscing elit.</p>
+</div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">&copy; copyright w3schools.com</div>
 
 </body>
 </html>
