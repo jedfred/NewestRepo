@@ -238,7 +238,7 @@
 <p style="background-color:tomato;">Here's one Paragraph <br> with a break</p>
 
 <!-- CURRENT LOCATION "https://drive.google.com/uc?export=view&id=1WyQ4mNS4BtPP5mqeB0oaJ_rxIi8hRIze" -->
-<p>And Here is another.  <a href = "https://www.w3schools.com/html/html_entities.asp" target = "_blank"> <img src="current_location.png" alt = "Current Location" style = "width:104px; height:104px;"></a></p>
+<p>And Here is another.  <a href = "https://www.w3schools.com/html/html_form_input_types.asp" target="_blank"> <img src="current_location.png" alt = "Current Location" style = "width:104px; height:104px;"></a>Input Type Radio</p>
 
 <p>Here is a tag reference <a href = "https://www.w3schools.com/tags/default.asp">W3 Schools tag reference</a></p>
 <p>Here is a tag reference <a href = "https://www.w3schools.com/tags/default.asp#mypagediv2">W3 Schools tag reference with a bookmark</a></p>
@@ -885,6 +885,98 @@ paragraphs in a single comment</p>
 <p>
   Semantic Elements such as &lt;article&gt;, &lt;aside&gt;, &lt;figure&gt;, &lt;header&gt;, and etc. help with sharing and reusing conent. <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">here</a> is the W3Schools information about semantic elements;
 </p>
+
+<p>  Three different ways to display the euro symbol &euro; &#8364; &#x20AC; </p>
+
+<p> one way to display ABC and another way to display &#65;&#66;&#67; using entity numbers</p>
+
+<p> here are some emojis displayed using entity numbers 128516, 128151, and 128525.  &#128516;, &#128151;, and &#128525;  </p>
+<p style="font-size:48px">And here they are only larger &#128516;, &#128151;, and &#128525;</p>
+<p><a href="https://www.w3schools.com/charsets/ref_emoji.asp">Here</a>is an emoji reference in w3schools</p>
+
+<h3>Here's a form of some sort</h3>
+<form> <!--action="/action_page.php">-->
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<form>
+  <input type="radio" id="html" name="fav-language" value="html">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav-language" value="css">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav-language" value="javascript">
+  <label for="javascript">JavaScript</label>
+</form>
+
+<form>
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars" size="4" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+    <option value="toyota">Toyota</option> <!--  <option value="toyota" selected>Toyota</option> -->
+  </select>
+</form>
+
+<textarea name="message" rows="10" cols="30">
+  How to make tough choices that are not obvious.
+</textarea>
+
+<textarea name"message2" style="width:200px; height:600px;">
+  There's more than one way to skin a cat.
+</textarea>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<br>
+
+<form>
+  <fieldset>
+    <legend>Education Background</legend>
+    <label for="elementary">Elementary School:</label><br>
+    <input type="text" id="elementary" name="elementary" value="Fairview"><br>
+    <label for="midjun">Middle School / Junior High</label><br>
+    <input type="text" id="midjun" name="midjun" value="North Bonneville Junior Highschool"><br>
+    <label for="highschool">Highschool</label><br>
+    <input type="text" id="highschool" name="highschool" value="Bonneville Highschool"><br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+  </fieldset>
+</form>
+<br>
+<p>Here's an example of a datalist</p>
+<form>
+  <input list="particles">
+  <datalist id="particles">
+    <option value="boson">
+    <option value="fermion">
+    <option value="muon">
+    <option value="pion">
+  </datalist>
+</form>
+<br>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+
+<form>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br>
+</form>
 
 </body>
 </html>
